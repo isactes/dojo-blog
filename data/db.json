@@ -1,0 +1,22 @@
+{
+    "blogs":[
+    {
+        "title":"Mahoutsukai no Yome: Nishi no Shounen to Seiran no Kishi",
+        "body": "La historia original de tres partes sigue a Gabriel, un chico común que se acaba de mudar de Londres y estaba aburrido de su entorno, hasta que un día, vio una voluta de humo púrpura desde la ventana de su casa. En ese momento, persiguió apresuradamente el humo, buscando cualquier tipo de libertad y diversión. Aunque no deberían, el mundo del chico y el de los magos pronto se cruzan… Mientras tanto, en medio de un día normal poco común, donde Elias está ayudando a Chise a prepararse para ir a la Academia, Spriggan llega a la mansión en un caballo aparentemente espeluznante con un mensaje sombrío, la aparición del cuerpo de cazadores de fantasmas esta vez es muy extraña.",
+        "author":"Isac",
+        "id": 1
+    },
+    {
+        "title":"Black Clover",
+        "body": "La historia gira entorno a Asta, un chico bullicioso y sin aparente talento mágico y Yuno, su amigo y rival, el cual es un genio en el uso de la magia. Ambos tienen sueños de convertirse en el Rey Mago, para cumplir la promesa hecha por ambos durante su infancia, uno de los dos debe ser el mago más fuerte.",
+        "author":"Isac",
+        "id": 2
+    },
+    {
+        "title":"Hotaru no Haka",
+        "body": "El joven Seita y su pequeña hermana Setsuko son hijos de un oficial de la marina japonesa. Durante la Segunda Guerra Mundial, ambos viven con su madre, pero un día, en un bombardeo, ellos se retrasan y no consiguen llegar al bunker donde ella los espera. Después del bombardeo los dos hermanos buscan a su madre, y Seita la encuentra muy malherida en la escuela que ha sido convertida en un hospital de urgencia. Poco después la madre muere y, tras una breve estancia en casa de su tía, ambos vagarán sin casa y sin rumbo, en una época donde la comida y la ayuda escasean.",
+        "author":"Isac",
+        "id": 3
+    }
+]
+}

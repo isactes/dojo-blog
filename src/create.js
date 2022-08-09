@@ -1,15 +1,30 @@
 import { useState } from "react";
+import { useHistory } from "react-router-dom";
 
 const Create = () => {
         const [ title, setTitle ] = useState('');
         const [ body, setBody ] = useState('');
         const [ author, setAthor] = useState('');
+        const [ isPending, setPending] = useState(false);
+        const history = useHistory();
+
 
         const handleSubmit = (e) => {
             e.preventDefault();
             const blog = { title, body, author };
 
-            console.log(blog)
+            setPending(true);
+
+            fetch('http://localhost:8000/blogs', {
+                method: 'POST',
+                headers: { "Content-Type": "aplication/json"},
+                body: JSON.stringify(blog)
+            }).then(() => {
+                console.log('new blog adding...');
+                setPending(false);
+                //history.go(-1);
+                history.push('/');
+            })
         }
     return ( 
         <div className="create">
@@ -29,7 +44,8 @@ const Create = () => {
                     <option value="helen">helen</option>
                     <option value="mime">mime</option>
                 </select>
-                <button>Add blog</button>
+                {!isPending && <button>Add blog</button>}
+                {isPending && <button>Adding blog...</button>}
                 {/* <p>{ title }</p>
                 <p>{ body }</p>
                 <p>{ author }</p> */}
